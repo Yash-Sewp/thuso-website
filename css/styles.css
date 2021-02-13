@@ -1,3 +1,4 @@
+
 .navbar-brand {	width: 208px; height: 82px; }
 
 .navbar-brand img { width: 100%; height: auto; }
@@ -5,20 +6,23 @@
 .navbar .nav-item a { font-size: 14px; line-height: 19px; letter-spacing: 1.5px; text-transform: uppercase; color: #FFFFFF; }
 
 /* home banner  */
+.home-banner { height: 240px; background-image: url('../img/header/home-bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat; margin-top: -98px; }
 
-.home-banner { height: 800px; background-image: url('../img/header/home-bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat; margin-top: -98px; }
+.home-banner .content-container { padding-top: 70px; height: 100%; }
 
-.home-banner .content-container { padding-top: 35%; height: 100%; }
+.home-banner .sub-heading { color: #D2AA8D; font-size: 12px; line-height: 34px; letter-spacing: 2.31px; text-transform: uppercase; }
 
-.home-banner .sub-heading {   font-size: 25px; font-weight: 500; letter-spacing: 4.81px; line-height: 30px; color: #D2AA8D; }
-
-.home-banner .heading { color: #D2AA8D; font-family: "P22 Underground"; font-size: 70px; font-weight: 600; letter-spacing: 0; line-height: 78px; }
+.home-banner .heading { color: #D2AA8D; font-size: 26px; line-height: 28px; }
 
 .home-banner .start-convo-btn { width: 386px; height: 94px; text-transform: uppercase; background: linear-gradient(180deg, #D2AA8D 0%, #A8774F 100%); position: absolute; bottom: 0px; left: 0px; color: #FFFFFF}
 
-/* intro  */
+@media screen and (min-width: 992px) { .home-banner { height: 800px; } .home-banner .content-container { padding-top: 35% } .home-banner .heading { font-size: 70px; font-weight: 600; line-height: 78px; } .home-banner .sub-heading { font-size: 25px; font-weight: 500; letter-spacing: 4.81px; line-height: 30px; } }
 
-.intro .heading { color: #22394D; font-size: 60px; letter-spacing: -1px; line-height: 64px; margin-bottom: 60px; }
+
+/* intro  */
+.intro { overflow: hidden; }
+
+.intro .heading { color: #22394D; font-size: 60px; letter-spacing: -1px; line-height: 64px; margin-bottom: 60px; display: inline-block; white-space: nowrap; }
 
 .intro-heading span { font-weight: 900; }
 
@@ -29,7 +33,6 @@
 .intro button { margin-top: 25px; }
 
 /* our-funds  */
-
 .our-funds { background-color: #A8774F;  }
 
 .our-funds .content-container { width: 50%; padding-right: 120px; padding-top: 60px; padding-left: 15px; }
@@ -114,10 +117,72 @@
 
 .media-center .heading { font-size: 40px; line-height: 48px; color: #141E2A; font-weight: 600; }
 
-/* buttons  */
-.primary-btn { width: 195px; height: 52px; background-color: transparent; border: 2px solid #A8774F; color: #A8774F; font-size: 14px; display: flex; justify-content: center; align-items: center; transition: ease .3s; }
+.media-center .card { border: none; border-radius: 0px; }
 
-.primary-btn:hover { background-color: #A8774F; color: #FFFFFF;  }
+.media-center .card .card-img-container { background-size: cover; background-repeat: no-repeat; background-position: center; }
+
+.media-center .card .card-date { font-size: 14px; line-height: 19px; letter-spacing: 2.4px; font-weight: 500; color: #141E2A; margin: 15px 0px; }
+
+.media-center .featured-card-container .card .card-img-container { height: 366px; }
+
+.media-center .featured-card-container .card .card-title { font-size: 60px; line-height: 64px; font-weight: 600; color :#141E2A; margin-bottom: 25px;  }
+
+.media-center .small-card-container .card { background-color: transparent; }
+
+.media-center .small-card-container .card .card-img-container { height: 266px; }
+
+.media-center .small-card-container .card .card-body { max-height: 286px; height: 100%; }
+
+.media-center .small-card-container .card .title { font-size: 32px; font-weight: 600; line-height: 36px; color: #141E2A }
+
+.media-center .small-card-container .card .card-text { font-size: 16px; line-height: 28px; color: #141E2A; height: 80px; overflow: hidden; position: relative; }
+
+/* got another way to do this  */
+.media-center .small-card-container .card .card-text:after { content: '...'; position: absolute; bottom: 0px; right: 0px; }
+
+/* footer  */
+footer { background-color: #141E2A; padding: 80px 0px; overflow: hidden;}
+
+footer hr { height: 1px; width: 110%; background-color: rgba(233, 221, 213, .1); margin:60px 0px; }
+
+footer .logo-container { width: 204px; height: 82px; }
+
+footer .logo-container img { width: 100%; height: auto; }
+
+footer .get-in-touch { display: flex; align-items: center; }
+
+footer .get-in-touch .content-container .heading { font-size: 32px; font-weight: 600; line-height: 38px; color: #FFFFFF; text-transform: capitalize; margin-bottom: 10px; }
+
+footer .get-in-touch .content-container .copy { font-size: 16px; font-weight: 600; letter-spacing: 2px; line-height: 22px; color: #FFFFFF; text-transform: uppercase; }
+
+footer ul { list-style: none; padding-left: 0px; }
+
+footer .quick-link ul li a { text-transform: uppercase; color: #FFFFFF; margin-bottom: 15px; }
+
+footer .email-container .heading { font-size: 14px; line-height: 19px; letter-spacing: 2px; color: #FFFFFF; text-transform: uppercase; margin-bottom: 12px; }
+
+footer .email-container ul li a { color: #FFFFFF; font-size: 22px; letter-spacing: .6px; line-height: 30px; }
+
+footer .email-container ul li a.email-link { color: #D2AA8D; }
+
+footer .social-container .heading { font-size: 14px; color: #FFFFFF; line-height: 19px; letter-spacing: 2px; font-weight: 600; text-transform: uppercase; margin-bottom: 20px; }
+
+footer .social-container ul li { margin-right: 15px; }
+
+footer .social-container ul li img { width: 50px; height: 50px; display: block; }
+
+footer .copy-terms-container { font-size: 14px; color: #FFFFFF; opacity: .5; line-height: 19px; }
+
+footer .term-and-cond-container ul span { margin: 0px 5px; }
+
+footer .term-and-cond-container ul li a { color: #FFFFFF; font-size: 14px; line-height: 19px; opacity: .5; text-decoration: underline; }
+
+
+
+/* buttons  */
+.primary-btn { width: 195px; height: 52px; background-color: transparent; border: 2px solid #A8774F; color: #A8774F; font-size: 14px; display: flex; justify-content: center; align-items: center; transition: ease .3s; text-transform: uppercase; }
+
+.primary-btn:hover { background-color: #A8774F; color: #FFFFFF; }
 
 .link-btn { font-size: 14px; line-height: 19px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; border: none; background-color: transparent; transition: ease .3s; padding-left: 0px; }
 
@@ -134,6 +199,8 @@
 .h-100 { height: 100%; }
 
 .b-120 { padding-top: 60px; padding-bottom: 60px }
+
+.mb-50 { margin-bottom: 50px; }
 
 @media screen and (min-width: 992px) { .b-120 { padding-top: 120px; padding-bottom: 120px } }
 

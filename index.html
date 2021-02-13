@@ -18,7 +18,10 @@
 	<header>
 		<nav class="navbar navbar-expand-lg bg-transparent">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#"><img src="img/header/thuso-logo-gold.png" alt=""></a>
+				<a class="navbar-brand" href="#">
+					<img src="img/header/Thuso-Logo-mobile.svg" class="d-md-none" alt="">
+					<img src="img/header/thuso-logo-gold.svg" class="d-none d-md-block" alt="">
+				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -210,7 +213,7 @@
 		</div>
 	</section>
 
-	<section class="partners">
+	<section class="partners b-120">
 		<div class="container position-relative">
 			<div class="content-container">
 				<div class="heading">Our partners and <br />
@@ -246,43 +249,56 @@
 	<section class="media-center b-120">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-6">
+				<div class="col-12">
 					<div class="heading">Media Centre</div>
-					<div class="l-card">
-						<div class="l-card-img"></div>
-						<div class="l-card-body">
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-12 col-md-6 featured-card-container">
+					<div class="card">
+						<div class="card-img-container"
+							style="background-image:url('img/media-center/featured-article-img.png')"></div>
+						<div class="card-body">
 							<div class="card-date">22 September 2020</div>
-							<div class="l-card-heading">Article heading lorem ipsum</div>
+							<h5 class="card-title">Article heading lorem ipsum</h5>
 							<button class="primary-btn">read article</button>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-md-6">
-					<div class="s-card-container">
-	
-						<div class="s-card">
-							<div class="s-card-img"></div>
-							<div class="s-card-body">
-								<div class="card-date">22 September 2020</div>
-								<div class="s-card-heading">Article heading lorem ipsum</div>
-								<div class="s-card-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-									turpis in mauris auctor dictum… </div>
-								<div class="link-btn">read</div>
+				<div class="col-12 col-md-6 small-card-container d-flex">
+
+					<div class="row m-0 p-0">
+						<div class="col-12 col-md-6">
+							<div class="card">
+								<div class="card-img-container"
+									style="background-image: url('img/media-center/article1-img.png');"></div>
+								<div class="card-body">
+									<div class="card-date">22 September 2020</div>
+									<h5 class="card-title">Article heading lorem ipsum</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed
+										diam
+										nonummy dolore magna volutpat lorem ipsum.</p>
+									<button class="link-btn gold">read</button>
+								</div>
 							</div>
 						</div>
-	
-						<div class="s-card">
-							<div class="s-card-img"></div>
-							<div class="s-card-body">
-								<div class="card-date">22 September 2020</div>
-								<div class="s-card-heading">Article heading lorem ipsum</div>
-								<div class="s-card-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac
-									turpis in mauris auctor dictum… </div>
-								<div class="link-btn">read</div>
+
+						<div class="col-12 col-md-6">
+							<div class="card">
+								<div class="card-img-container"
+									style="background-image: url('img/media-center/article2-img.png')"></div>
+								<div class="card-body">
+									<div class="card-date">22 September 2020</div>
+									<h5 class="card-title">Article heading lorem ipsum</h5>
+									<p class="card-text">Lorem ipsum dolor sit amet consectetuer adipiscing elit sed
+										diam
+										nonummy dolore magna volutpat lorem ipsum.</p>
+									<button class="link-btn gold">read</button>
+								</div>
 							</div>
 						</div>
-	
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -290,7 +306,7 @@
 
 	<footer>
 		<div class="container">
-			<div class="row">
+			<div class="row align-items-center">
 				<div class="col-12 col-md-6">
 					<!-- Logo  -->
 					<div class="logo-container">
@@ -300,85 +316,96 @@
 				<div class="col-12 col-md-6">
 					<!-- Get in touch  -->
 					<div class="get-in-touch">
-						<div class="content-container">
-							<div class="heading">get in touch</div>
-							<div class="copy">be part of the transformation</div>
+						<div class="row m-0 p-0">
+							<div class="col-12 col-md-6">
+								<div class="content-container">
+									<div class="heading">get in touch</div>
+									<div class="copy">be part of the transformation</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<button class="primary-btn white">join our journey</button>
+							</div>
 						</div>
-						<button class="primary-btn white">join our journey</button>
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<hr>
+			<div class="row mb-50">
 				<div class="col-12 col-md-6">
-					<div class="footer-link-container">
-
-						<div class="quick-link">
-							<ul>
-								<li>
-									<a href="#">about</a>
-								</li>
-								<li>
-									<a href="#">our experience</a>
-								</li>
-								<li>
-									<a href="#">sustaunability & impact</a>
-								</li>
-								<li>
-									<a href="#">portfolio</a>
-								</li>
-								<li>
-									<a href="#">media center</a>
-								</li>
-								<li>
-									<a href="#">contact us</a>
-								</li>
-							</ul>
+					<div class="row m-0 p-0">
+						<div class="col-12 col-md-6 pl-0">
+							<div class="quick-link">
+								<ul>
+									<li>
+										<a href="#">about</a>
+									</li>
+									<li>
+										<a href="#">our experience</a>
+									</li>
+									<li>
+										<a href="#">sustaunability & impact</a>
+									</li>
+									<li>
+										<a href="#">portfolio</a>
+									</li>
+									<li>
+										<a href="#">media center</a>
+									</li>
+									<li>
+										<a href="#">contact us</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 
-						<div class="email-container">
-							<div class="heading">contact details</div>
-							<ul>
-								<li>
-									<a href="#">+27 21 671 3311</a>
-								</li>
-								<li>
-									<a href="#">+27 21 671 3322</a>
-								</li>
-								<li>
-									<a class="email-link" href="#">info@thuso.com</a>
-								</li>
-							</ul>
+						<div class="col-12 col-md-6">
+							<div class="email-container">
+								<div class="heading">contact details</div>
+								<ul>
+									<li>
+										<a href="#">+27 21 671 3311</a>
+									</li>
+									<li>
+										<a href="#">+27 21 671 3322</a>
+									</li>
+									<li>
+										<a class="email-link" href="#">info@thuso.com</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-12 col-md-6">
 					<div class="social-container">
 						<div class="heading">follow us</div>
-						<ul>
+						<ul class="d-flex">
 							<li>
-								<a href="#"></a>
+								<a href="#"><img src="img/icons/linkedin.svg" alt="linkedin"></a>
 							</li>
 							<li>
-								<a href="#"></a>
+								<a href="#"><img src="img/icons/medium.svg" alt="medium"></a>
 							</li>
 						</ul>
 
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-6">
+			<div class="row copy-terms-container">
+				<div class="col-12 col-md-8">
 					<!-- Coyright  -->
 					<p>©2019 THUSO Incubation Partners All Rights Reserved Reg No 2019/121231/07</p>
 					<p>Juristic Representative under Ke Nako Capital (Pty) Ltd FSP No 33507</p>
 				</div>
-				<div class="col-12 col-md-6">
+				<div class="col-12 col-md-4">
 					<!-- T&Cs  -->
 					<div class="term-and-cond-container">
-						<ul>
+						<ul class="d-flex">
 							<li>
 								<a href="#">Disclaimer</a>
 							</li>
+							<span>|</span>
 							<li>
 								<a href="#">Terms & Conditions</a>
 							</li>
