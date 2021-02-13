@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1A1EF0C7-647C-4796-BED2-7E8F20F62BBF@1x</title>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thuso-web-hover-states" transform="translate(-1027.000000, -1149.000000)">
+            <g id="directional-buttons-copy-2" transform="translate(1027.000000, 1148.000000)">
+                <g id="thuso-left-1" transform="translate(0.000000, 1.000000)">
+                    <circle id="Oval" fill="#A8774F" cx="25" cy="25" r="25"></circle>
+                    <g id="Group-2-Copy" transform="translate(24.000000, 25.272727) scale(-1, 1) translate(-24.000000, -25.272727) translate(15.000000, 19.272727)">
+                        <line x1="0.409090909" y1="5.72727273" x2="12.6818182" y2="5.72727273" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></line>
+                        <polygon id="Triangle" fill="#FFFFFF" transform="translate(13.909091, 5.727273) rotate(-270.000000) translate(-13.909091, -5.727273) " points="13.9090909 1.63636364 19.6363636 9.81818182 8.18181818 9.81818182"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,139 @@
+.navbar-brand {	width: 208px; height: 82px; }
+
+.navbar-brand img { width: 100%; height: auto; }
+
+.navbar .nav-item a { font-size: 14px; line-height: 19px; letter-spacing: 1.5px; text-transform: uppercase; color: #FFFFFF; }
+
+/* home banner  */
+
+.home-banner { height: 800px; background-image: url('../img/header/home-bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat; margin-top: -98px; }
+
+.home-banner .content-container { padding-top: 35%; height: 100%; }
+
+.home-banner .sub-heading {   font-size: 25px; font-weight: 500; letter-spacing: 4.81px; line-height: 30px; color: #D2AA8D; }
+
+.home-banner .heading { color: #D2AA8D; font-family: "P22 Underground"; font-size: 70px; font-weight: 600; letter-spacing: 0; line-height: 78px; }
+
+.home-banner .start-convo-btn { width: 386px; height: 94px; text-transform: uppercase; background: linear-gradient(180deg, #D2AA8D 0%, #A8774F 100%); position: absolute; bottom: 0px; left: 0px; color: #FFFFFF}
+
+/* intro  */
+
+.intro .heading { color: #22394D; font-size: 60px; letter-spacing: -1px; line-height: 64px; margin-bottom: 60px; }
+
+.intro-heading span { font-weight: 900; }
+
+.intro .copy { color: #141E2A; font-size: 20px; line-height: 28px; }
+
+.intro .copy span { font-weight: 600; }
+
+.intro button { margin-top: 25px; }
+
+/* our-funds  */
+
+.our-funds { background-color: #A8774F;  }
+
+.our-funds .content-container { width: 50%; padding-right: 120px; padding-top: 60px; padding-left: 15px; }
+
+@media screen and (min-width: 992px) { .our-funds { height: 800px;} .our-funds .content-container { padding-top: 120px; } }
+
+.our-funds .content-container .heading { color: #FFFFFF; font-size: 26px; font-weight: 600; letter-spacing: 2px; line-height: 36px; text-transform: uppercase; }
+
+.our-funds .content-container .link-btn { margin-top: 50px; }
+
+.our-funds .content-container .intro-copy { color: #FFFFFF; font-size: 16px; line-height: 28px; }
+
+.our-funds .fund-option-container { margin-top: 30px; }
+
+.our-funds .fund-option-container .fund-option { margin-bottom: 30px; }
+
+.our-funds .fund-option-container .heading { color: #FFFFFF; font-size: 28px; line-height: 32px; text-transform: capitalize; font-weight: 600; }
+
+.our-funds .fund-option-container .content { font-size: 14px; color: #FFFFFF; font-weight: 500; margin-top: 10px; letter-spacing: 1px; line-height: 19px; }
+
+.our-funds .img-container { width: 50%; height: 100%; min-height: 800px; background-image: url('../img/our-funds/thuso-our-funds-image.png'); background-position: center; background-size: cover; background-repeat: no-repeat; }
+
+.our-funds .blue-end-block { position: absolute; top: 0; right: 0px; width: 300px; height: 100%; background: linear-gradient(315deg, #141E2A 0%, #3D5D71 100%); }
+
+.our-funds .blue-end-block .quote-block { width: 380px; height: 433px; background-image: url('../img/our-funds/combinedshape.png'); background-repeat: no-repeat; background-position: center; position: absolute; top: 64px; right: 60px; font-size: 40px; font-weight: 600; line-height: 42px; padding: 75px 50px;  }
+
+.our-funds .blue-end-block .quote-block span { font-size: 14px; font-weight: 500; letter-spacing: 1px; line-height: 19px; }
+
+.our-funds .blue-end-block .gold-dots { width: 108px; height: 108px; background-image: url('../img/our-funds/thuso-pattern-dots.png'); background-position: center; background-size: cover; background-repeat: no-repeat; position: absolute; bottom: 50px; left: -54px;  }
+
+/* approaches  */
+.our-approaches .the-way-work .heading { font-size: 40px; line-height: 46px; font-weight: 600; color: #141E2A; margin-bottom: 24px; }
+
+.our-approaches .the-way-work .content { font-size: 16px; line-height: 28px; color: #141E2A; }
+
+.our-approaches .the-way-work button { margin-top: 32px; }
+
+.our-approaches .approaches { margin-top: 80px; } 
+
+.our-approaches .approaches .card { border: none; }
+
+.our-approaches .approaches .card-img-container { width: 50px; height: 50px; padding-left: 1.25rem; margin-bottom: 20px; }
+
+.our-approaches .approaches .card-img-container img { height: 50px; width: auto; display: block; }
+
+/* scrolling section  */
+.scrolling-text { overflow: hidden; }
+
+.scrolling-text .container { margin-left: 14%; max-width: 100%;}
+
+.scrolling-text .text-container { font-size: 60px; line-height: 64px; color: #A8774F; }
+
+.scrolling-text .text-container span { font-weight: 600; }
+
+/* partner  */
+.partners .content-container { position: absolute; top: 120px; left: 0; width: 450px; z-index: 1; }
+
+.partners .content-container .heading { color: #141E2A; font-size: 40px; line-height: 48px; font-weight: 600; }
+
+.partners .content-container .content { color: #141E2A; font-size: 20px; line-height: 32px; margin-top: 24px; margin-bottom: 40px;	padding-right: 50px; }
+
+.partners .content-container .content span { font-weight: 600; }
+
+.partners .partner-slider .item { display: flex !important; position: relative }
+
+.partners .partner-slider .item .content { width: 40%; height: 100%; }
+
+.partners .partner-slider .item .content .title { position: absolute; bottom: 150px; left: 120px; width: 300px; font-size: 80px; line-height: 80px; letter-spacing: -0.5px; color: #141E2A; }
+
+.partners .partner-slider .item .partner-img { width: 60%; height: 800px; background-repeat: no-repeat; background-size: cover; background-position: center; position: relative;  }
+
+.partners .partner-slider .item .partner-logo { width: 180px; height: 148px; background-color: #FFFFFF; position: absolute; bottom: 160px; left: 0px; }
+
+.partners .partner-slider .slide-arrow { position: absolute; width: 50px; height: 50px; border-radius: 50%; background-repeat: no-repeat; background-position: center; background-size: cover; border: none; }
+
+.partners .partner-slider .prev-arrow {  bottom: 40px; left: 12%;  background-image: url('../img/icons/thuso-left-1.svg'); z-index: 999; }
+
+.partners .partner-slider .next-arrow { bottom: 40px; left: 25%; background-image: url('../img/icons/thuso-right-1.svg');  }
+
+/* media center */
+.media-center { background-color: #F0F0F0; }
+
+.media-center .heading { font-size: 40px; line-height: 48px; color: #141E2A; font-weight: 600; }
+
+/* buttons  */
+.primary-btn { width: 195px; height: 52px; background-color: transparent; border: 2px solid #A8774F; color: #A8774F; font-size: 14px; display: flex; justify-content: center; align-items: center; transition: ease .3s; }
+
+.primary-btn:hover { background-color: #A8774F; color: #FFFFFF;  }
+
+.link-btn { font-size: 14px; line-height: 19px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; border: none; background-color: transparent; transition: ease .3s; padding-left: 0px; }
+
+.link-btn:hover { font-weight: bold; }
+
+
+/* utils  */
+.white { color: #FFFFFF; }
+
+.blue { color: #22394D; }
+
+.gold { color: #B77432; }
+
+.h-100 { height: 100%; }
+
+.b-120 { padding-top: 60px; padding-bottom: 60px }
+
+@media screen and (min-width: 992px) { .b-120 { padding-top: 120px; padding-bottom: 120px } }
+
