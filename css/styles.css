@@ -64,11 +64,11 @@
 
 .our-funds .blue-end-block .quote-block { width: 100%; height: 200px; background-image: url('../img/our-funds/speechbubbleMobile.png'); background-repeat: no-repeat; background-position: center; background-size: cover; position: absolute; top: -552px; right: 0px; font-size: 24px; font-weight: 600; line-height: 30px; padding: 37px 50px; }
 
-.our-funds .blue-end-block .quote-block span { font-size: 12px; font-weight: 500; letter-spacing: 1px; line-height: 16px; }
+.our-funds .blue-end-block .quote-block .citation  { font-size: 12px; font-weight: 500; letter-spacing: 1px; line-height: 16px; margin-top: 15px; }
 
 .our-funds .blue-end-block .gold-dots { width: 69px; height: 69px; background-image: url('../img/our-funds/thuso-pattern-dots.png'); background-position: center; background-size: cover; background-repeat: no-repeat; position: absolute; bottom: 65px; right: 30px;  }
 
-@media screen and (min-width: 992px) { .our-funds { height: 800px;} .our-funds .content-container { width: 40%; padding: 120px 80px 0px 15px; margin-bottom: 0px; } .our-funds .content-container .link-btn { margin-top: 80px; } .our-funds .fund-option-container .heading { font-size: 28px; line-height: 32px; font-weight: 600; } .our-funds .img-container { width: 60%; min-height: 800px; } .our-funds .blue-end-block { top: 0; right: 0px; bottom: unset; left: unset; width: 350px; height: 100%; } .our-funds .blue-end-block .quote-block { background-image: url('../img/our-funds/combinedshape.png'); width: 380px; height: 433px; top: 64px; right: 60px; font-size: 40px; line-height: 42px; padding: 75px 50px 0px 50px; } .our-funds .blue-end-block .quote-block span { font-size: 14px; line-height: 19px; } .our-funds .blue-end-block .gold-dots { width: 108px; height: 108px; bottom: 50px; left: -54px; right: unset; } }
+@media screen and (min-width: 992px) { .our-funds { height: 800px;} .our-funds .content-container { width: 40%; padding: 120px 80px 0px 15px; margin-bottom: 0px; } .our-funds .content-container .link-btn { margin-top: 80px; } .our-funds .fund-option-container .heading { font-size: 28px; line-height: 32px; font-weight: 600; } .our-funds .img-container { width: 60%; min-height: 800px; } .our-funds .blue-end-block { top: 0; right: 0px; bottom: unset; left: unset; width: 350px; height: 100%; } .our-funds .blue-end-block .quote-block { background-image: url('../img/our-funds/combinedshape.png'); width: 380px; height: 433px; top: 64px; right: 60px; font-size: 40px; line-height: 42px; padding: 75px 50px 0px 50px; } .our-funds .blue-end-block .quote-block .citation { font-size: 14px; line-height: 19px; } .our-funds .blue-end-block .gold-dots { width: 108px; height: 108px; bottom: 50px; left: -54px; right: unset; } }
 
 
 /* approaches  */
