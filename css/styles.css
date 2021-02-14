@@ -9,7 +9,7 @@
 
 .navbar .navbar-toggler { width: 20px; height: 20px; background-color: transparent; background-image: url('../img/icons/thuso-hamburger.svg'); background-repeat: no-repeat; background-size: cover; background-position: center; border-radius: 0px; }
 
-@media screen and (min-width: 992px) { .navbar-brand { width: 208px; } }
+@media screen and (min-width: 992px) { .navbar-brand { width: 208px; height: 82px; } }
 
 /* home banner  */
 .home-banner { height: 240px; background-image: url('../img/header/home-bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat; margin-top: -98px; margin-bottom: 54px; }
