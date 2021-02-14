@@ -197,13 +197,17 @@ footer .get-in-touch .primary-btn-white { margin-top: 40px; }
 
 footer ul { list-style: none; padding-left: 0px; }
 
-footer .quick-link ul li a { text-transform: uppercase; color: #FFFFFF; margin-bottom: 15px; font-size: 14px; letter-spacing: 2px; }
+footer .quick-link ul li a { text-transform: uppercase; color: #FFFFFF; margin-bottom: 15px; font-size: 14px; letter-spacing: 2px; transition: ease .2s; }
+
+footer .quick-link ul li a:hover { color: #D2AA8D; text-decoration: none; }
 
 footer .email-container .heading { font-size: 14px; line-height: 19px; letter-spacing: 2px; color: #FFFFFF; text-transform: uppercase; margin-bottom: 12px; margin-top: 54px; }
 
 footer .email-container ul li { margin: 10px 0px; }
 
 footer .email-container ul li a { color: #FFFFFF; font-size: 17px; letter-spacing: .46px; line-height: 23px; }
+
+footer .email-container ul li a:hover { color: #D2AA8D; text-decoration: none; }
 
 footer .email-container ul li a.email-link { color: #D2AA8D; }
 
