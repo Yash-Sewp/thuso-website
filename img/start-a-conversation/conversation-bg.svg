@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="800px" viewBox="0 0 1600 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E0537C94-097A-4B42-924F-469773EBB039@1x</title>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#141E2A" offset="0%"></stop>
+            <stop stop-color="#3D5D71" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Style-Guide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Thuso-web-hover-states" transform="translate(0.000000, -113.000000)" fill="url(#linearGradient-1)">
+            <rect id="bg-blue" x="0" y="113" width="1600" height="800"></rect>
+        </g>
+    </g>
+</svg>

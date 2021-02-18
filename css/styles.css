@@ -290,3 +290,56 @@ footer .copy-terms-container .col-12 { padding-left: 30px; padding-right: 30px; 
 
 @media screen and (min-width: 992px) { .b-120 { padding-top: 180px; padding-bottom: 180px } .b-120 { padding-top: 120px; padding-bottom: 120px; } .pl-50 { padding-left: 0px; } }
 
+/* start a conversation  */
+.modal-content .close { color: #FFFFFF; }
+
+.modal-content { border-radius: 0px; }
+
+.modal-content .primary-btn { width: 195px; height: 50px; }
+
+#usernameInput .modal-body { padding: 40px; }
+
+#usernameInput .form-text { color: red; display: none; position: absolute; bottom: -20px; left: 0px; }
+
+input.form-control { background-color: transparent; border-radius: 0px; border: none; border-bottom: 1px solid #BA8761; padding: 30px 0px; font-size: 16px; line-height: 30px; outline: none!important; }
+
+#usernameInput input:focus { outline: none; box-shadow: none; }
+
+#conversationBox .modal-dialog { position: absolute; min-height: 100%; max-width: 80%; top: -44px; right: 37px; height: 100%; width: 100%; }
+
+#conversationBox .modal-content { position: absolute; height: 65%; bottom: 0px; background-image: url('../img/start-a-conversation/conversation-bg.svg'); background-size: cover; background-position: center; }
+
+#conversationBox .modal-footer form { width: 100%; }
+
+#conversationBox .modal-body { overflow: scroll; }
+
+.message-container { width: 60%; min-height: 40px; padding: 10px; margin: 10px 0px; border-radius: 4px;  }
+
+.user-message { float: left;  background-color: #FFFFFF; text-align: left; }
+
+.admin-message { float: right; background-color: #F0F0F0; text-align: right; }
+
+textarea { width: 90%; min-height: 50px; height: 100%; background-color: transparent; border: 2px solid #A8774F; color: #FFFFFF}
+
+#conversationBox .modal-footer textarea:focus { border-radius: 0px; box-shadow: none; outline: none; }
+
+.paperplane-btn { width: 10%; height: 50px; background-color: transparent; border: none; font-size: 25px; color: #A8774F; display: flex; align-items: center; justify-content: center; }
+
+#conversationBox .send-btn i { transition: ease .3s; }
+
+#conversationBox .send-btn:hover i { opacity: .5; }
+
+/* Admin page  */
+@media screen and (min-width: 992px) { .admin-page .home-banner { height: 400px; } #conversationBox .modal-dialog { width: 40%; } }
+
+.user-row-container ul { list-style: none; padding-left: 0px; }
+
+.user-row-container ul li { padding: 10px 0px; border-bottom: 1px solid #D6D6D6; text-transform: capitalize; cursor: pointer; }
+
+.previous-chat-container { width: 100%; min-height: 500px; overflow: scroll; background-color: #d6d6d6; margin-bottom: 50px; padding: 10px; }
+
+.admin textarea { color: #141E2A; }
+
+.user-message-container .text-muted { display: none; color: red; }
+
+.user-message-container .empty-chats { display: none; }
